@@ -28,10 +28,11 @@ class LoginPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const FlutterLogo(
-              size: 80.0,
-              textColor: Colors.blue,
-            ),
+            // const FlutterLogo(
+            //   size: 80.0,
+            //   textColor: Colors.blue,
+            // ),
+            Image.asset("assets/icon/logo.png")
             SizedBox(height: 32.0),
             TextField(
               decoration: InputDecoration(
